@@ -1,0 +1,37 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+body{
+    background: #070A1B;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+
+}
+
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
